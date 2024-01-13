@@ -49,7 +49,7 @@ ul li a {
   font-size: 1.25rem;
   font-weight: 600;
   padding: 20px 25px;
-  background-color: #FF900E;
+  background-color: #ff900e;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -64,25 +64,49 @@ ul li a {
 /* Responsive media queries */
 /* moblie devices */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   header {
-    padding:10px;
+    padding: 10px;
     background-color: greenyellow;
   }
   header nav {
     flex-direction: column;
   }
-  
 }
 /* medium devices */
 
-@media screen and (min-width:576px) and (max-width:870px){
+@media screen and (min-width: 576px) and (max-width: 870px) {
   header {
-    padding:25px;
+    padding: 20px;
     background-color: #3bacf8;
   }
   header nav {
     flex-direction: column;
   }
+}
 
+
+/* main styles */
+main {
+  max-width: 1400px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+.teams-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid saddlebrown;
+  
+}
+.teams-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.1rem;
+  
+}
+.teams-content {
+  padding: 2.7rem;
+}
+.teams-headline {
+  
 }
