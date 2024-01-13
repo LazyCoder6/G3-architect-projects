@@ -16,7 +16,7 @@ header nav {
 }
 .header-title {
   color: #131313;
-  font-size: 45px;
+  font-size: 2.8rem;
   font-weight: 700;
 }
 nav ul {
@@ -45,14 +45,44 @@ ul li a {
   font-weight: 700;
 }
 .btn-primary {
-  padding: 15px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 20px 25px;
   background-color: #FF900E;
-  border-radius: 7px;
-  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 .banner img {
-    margin-top: 20px;
-    width: 100%;
+  margin-top: 40px;
+  width: 100%;
 }
 
+/* Responsive media queries */
+/* moblie devices */
+
+@media screen and (max-width:576px) {
+  header {
+    padding:10px;
+    background-color: greenyellow;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  
+}
+/* medium devices */
+
+@media screen and (min-width:576px) and (max-width:870px){
+  header {
+    padding:25px;
+    background-color: #3bacf8;
+  }
+  header nav {
+    flex-direction: column;
+  }
+
+}
