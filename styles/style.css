@@ -176,7 +176,7 @@ ul li a {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin: 30px 180px;
+  margin: 40px 180px;
 }
 .text-container-section {
   width: 50%;
@@ -217,9 +217,11 @@ ul li a {
 }
 .img-container {
   width: calc((50%-50px));
+  
 }
 .img-container img {
   width: 100%;
+
 }
 /* highlight section */
 .Experience {
@@ -262,3 +264,5 @@ ul li a {
     text-align: center;
   }
 }
+
+/* some facts section */
