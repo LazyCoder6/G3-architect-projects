@@ -7,6 +7,7 @@
 header {
   background-color: #ff900e1a;
   padding: 0px 190px;
+  
 }
 
 header nav {
@@ -217,11 +218,9 @@ ul li a {
 }
 .img-container {
   width: calc((50%-50px));
-  
 }
 .img-container img {
   width: 100%;
-
 }
 /* highlight section */
 .Experience {
@@ -266,3 +265,59 @@ ul li a {
 }
 
 /* some facts section */
+.some-facts {
+  margin: 180px;
+}
+.section-header {
+  width: 40%;
+  margin-bottom: 50px;
+}
+.section_header .title {
+  color: #131313;
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.section_header .description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.facts-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-container .facts {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 20px 40px;
+  text-align: center;
+  width: 80px;
+  margin-right: 20px;
+  gap:auto;
+}
+/* bottom section styles */
+/* Sponsors */
+.our-sponsors .section-header {
+  max-width: 450px;
+  text-align: center;
+  margin-inline: auto;
+  margin-bottom: 40px;
+}
+
+.our-sponsors .sponsors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+
+/* footer styles */
+footer {
+  background-color: #FFF4E7;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
